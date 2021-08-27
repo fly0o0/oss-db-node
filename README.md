@@ -1,27 +1,27 @@
-# OSS-NODE
+# oss-db-node
 
 阿里云 OSS 上传工具 Node 版本
 
 ## 安装
 
 ```bash
-yarn add oss-node
+yarn add oss-db-node
 ```
 
 ```bash
-npm install oss-node
+npm install oss-db-node
 ```
 
 ## 使用
 
-```ts
+```js
 const path = require('path')
 
-// TS
-import OSS from 'oss-node'
+// ES
+import OSS from 'oss-db-node'
 
 // JS
-const OSS = require('oss-node').default
+const OSS = require('oss-db-node').default
 
 const oss = new OSS()
 
