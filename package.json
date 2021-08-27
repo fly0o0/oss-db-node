@@ -1,8 +1,11 @@
 {
   "name": "oss-db-node",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "oss for node",
-  "main": "./lib",
+  "main": "src/index.js",
+  "bin": {
+    "oss-db-node": "./src/index.js"
+  },
   "scripts": {
     "demo": "node demo/index.js",
     "pub": "npm run clean && node ./scripts/pub.js",
